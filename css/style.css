@@ -1,12 +1,11 @@
-body, h1, h2, h3, h4, h5, h6 {
-  font-family: Arial, Helvetica, Arial, sans-serif;
-}
+
 .navbar{
-  background: rgb(2,0,36) !important;
-  background: linear-gradient(180deg, rgba(0,212,255,1) 50%, rgb(250, 250, 250) 100%) !important;
-}
+  background: rgb(6, 2, 87) !important;
+  font-family: 'Poppins', sans-serif;
+  /* font-size: 23px !important; */
+  /* background: linear-gradient(180deg, rgb(50, 137, 155) 50%, rgb(175, 175, 175) 100%) !important; */
+} 
 
 #foot{
   font-size: 12px !important;
-
 }
