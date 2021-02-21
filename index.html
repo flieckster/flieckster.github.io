@@ -1,42 +1,114 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-</html>
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Brian Flieck Studio Bio</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Brian Flieck</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ba506dcce6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Student Bio</h1>
-    </header>
-    <div class="container">
-        <section id="main-bio">
-            <h2>Brian Flieck</h2>
-            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQE-QQIMuEmHig/profile-displayphoto-shrink_200_200/0/1517682206271?e=1613606400&v=beta&t=MXHO-W2BpViivUDXeimQOAujh8qorTSzuUF7HP-liYU"
-                alt="Brian Flieck Pic" id="bio-image">
-            <p>this is a short bit of text about me, its not really about anything. kind of like seinfield.</p>
-            <br>
-        </section>
-
-        <section id="contact-info">
-
-            <h2>Contact Info</h2>
-
-            <ul>
-                <li><strong>Email:</strong> <a href="mailto:Brianflieck@gamil.com">brianflieck@gmail.com</a></li>
-                <li><strong>Github:</strong><a href="https://github.com/flieckster">https://github.com/flieckster</a></li>
-                <li><strong>Portfolio:</strong> <a href="http://flieck.dev">http://flieck.dev</a></li>
-                <li><a href="https://flieckster.github.io/Refactor_Horiseon/">Horiseon Refactor</a></li>
-                <li><a href="https://flieckster.github.io/02-css-html-bootstap/">Portfolio Page</a></li>
-            </ul>
-
-        </section>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a id="brand" class="navbar-brand ml-4" href="index.html">Brian Flieck</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse  justify-content-end" id="navbarText">
+      <ul class="navbar-nav ml-4">
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfoilio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resume</a>
+        </li>
+      </ul>
     </div>
+  </nav>
+  <!-- nav -->
+  <br>
+  <br>
+  <br>
+  <div class="container">
+    <span id="porfolio">Portfolio</span>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://user-images.githubusercontent.com/9003865/108603150-3ce56800-7374-11eb-8a18-0545db893644.png"
+            class="card-img-top" alt="Refector Horriseon Screen Shot">
+          <div class="card-body">
+            <h5 class="card-title">Refactor Horiseon</h5>
+            <p class="card-text">Update the Horriseon website with updated HTML elements, fixing some CSS and adjusting
+              ID and Class names </p>
+            <a href="https://github.com/flieckster/Refactor_Horiseon"><i class="fab fa-github fa-2x"></i></a>
+            <a href="flieckster.github.io/refactor_horiseon/"><i class="fas fa-external-link-alt fa-2x"></i></a>
 
-</body>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://user-images.githubusercontent.com/9003865/106813141-9ba1a680-663e-11eb-9393-d955757ad545.png"
+            class="card-img-top" alt="Open weather app screen shot">
+          <div class="card-body">
+            <h5 class="card-title">Open Weather API</h5>
+            <p class="card-text">I crated a simple page that allows users to input their city, and call out to the open
+              weather API, to return current weather condictions as well as a 5 day forecast</p>
+            <a href="https://github.com/flieckster/weather-app"> <i class="fab fa-github fa-2x"></i></a>
+            <a href="flieckster.github.io/weather-app/"><i class="fas fa-external-link-alt fa-2x"></i></a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="text-center py-5 px-3">
+      <h3>Hi there! &#129306;</h3>
+      <p>My name is Brian Flieck</p>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer>
+    <nav class="navbar fixed-bottom navbar-dark has-background-grey-dark ">
+      <div class="container-fluid justify-content-center">
+        <a id="foot" class="navbar-brand mb-0" href="#">BCF 2021</a>
+      </div>
+    </nav>
+  </footer>
 
 </html>
