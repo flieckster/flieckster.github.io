@@ -15,9 +15,9 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a id="brand" class="navbar-brand ml-4" href="index.html">Brian Flieck</a>
+<body class="parallax">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a id="brand" class="navbar-brand p-4" href="index.html">Brian Flieck</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -25,13 +25,13 @@
     <div class="collapse navbar-collapse  justify-content-end" id="navbarText">
       <ul class="navbar-nav ml-4">
         <li class="nav-item">
-          <a class="nav-link" href="#portfolio">Portfoilio</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Resume</a>
+          <a class="nav-link" href="#resume">Resume</a>
         </li>
       </ul>
     </div>
@@ -40,75 +40,108 @@
   <br>
   <br>
   <br>
-  <div class="container">
-    <span id="porfolio">Portfolio</span>
-    <div class="row row-cols-1 row-cols-md-2 g-4">
-      <div class="col">
-        <div class="card">
-          <img
-            src="https://user-images.githubusercontent.com/9003865/108603150-3ce56800-7374-11eb-8a18-0545db893644.png"
-            class="card-img-top" alt="Refector Horriseon Screen Shot">
-          <div class="card-body">
-            <h5 class="card-title">Refactor Horiseon</h5>
-            <p class="card-text">Update the Horriseon website with updated HTML elements, fixing some CSS and adjusting
-              ID and Class names </p>
-            <a href="https://github.com/flieckster/Refactor_Horiseon"><i class="fab fa-github fa-2x"></i></a>
-            <a href="flieckster.github.io/refactor_horiseon/"><i class="fas fa-external-link-alt fa-2x"></i></a>
+  <div class="container special-card id="contact">
+    <div class="card mx-auto" style="width: 18rem;">
+      <img class="card-img-top" src="https://media-exp1.licdn.com/dms/image/C4E03AQE-QQIMuEmHig/profile-displayphoto-shrink_800_800/0/1517682206271?e=1619654400&v=beta&t=dpfN52XSO8KhtjYlrtGkfpgBFMHONr4kR3u_GR3beuI" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title mb-2 text-muted"> &#129306; </h5>
+        <p class="card-text">My name is Brian Flieck I am a student at Univeristy at Penn full stack develpement boot
+          camp.<br>
+          please feel free to reach out to me <a href="mailto:brianflieck@gmail.com">brianflieck@gmail.com</a>
+        </p>
+        <a href="https://www.linkedin.com/in/brianflieck/" <i class="fab fa-linkedin-in fa-2x"></i></a>
+        <a href="https://github.com/flieckster/" <i class="fab fa-github fa-2x"></i></a>
+      </div>
+    </div>
+        <!-- spacers -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+      <span id="portfolio">Portfolio</span>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://user-images.githubusercontent.com/9003865/108603150-3ce56800-7374-11eb-8a18-0545db893644.png"
+              class="card-img-top" alt="Refector Horriseon Screen Shot">
+            <div class="card-body">
+              <h5 class="card-title">Refactor Horiseon</h5>
+              <p class="card-text">Update the Horriseon website with updated HTML elements, fixing some CSS and
+                adjusting
+                ID and Class names </p>
+              <a href="https://github.com/flieckster/Refactor_Horiseon"><i class="fab fa-github fa-2x"></i></a>
+              <a href="flieckster.github.io/refactor_horiseon/"><i class="fas fa-external-link-alt fa-2x"></i></a>
 
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img
-            src="https://user-images.githubusercontent.com/9003865/106813141-9ba1a680-663e-11eb-9393-d955757ad545.png"
-            class="card-img-top" alt="Open weather app screen shot">
-          <div class="card-body">
-            <h5 class="card-title">Open Weather API</h5>
-            <p class="card-text">I crated a simple page that allows users to input their city, and call out to the open
-              weather API, to return current weather condictions as well as a 5 day forecast</p>
-            <a href="https://github.com/flieckster/weather-app"> <i class="fab fa-github fa-2x"></i></a>
-            <a href="flieckster.github.io/weather-app/"><i class="fas fa-external-link-alt fa-2x"></i></a>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://user-images.githubusercontent.com/9003865/106813141-9ba1a680-663e-11eb-9393-d955757ad545.png"
+              class="card-img-top" alt="Open weather app screen shot">
+            <div class="card-body">
+              <h5 class="card-title">Open Weather API</h5>
+              <p class="card-text">I crated a simple page that allows users to input their city, and call out to the
+                open
+                weather API, to return current weather condictions as well as a 5 day forecast</p>
+              <a href="https://github.com/flieckster/weather-app"> <i class="fab fa-github fa-2x"></i></a>
+              <a href="flieckster.github.io/weather-app/"><i class="fas fa-external-link-alt fa-2x"></i></a>
 
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content.</p>
+        <div class="col">
+          <div class="card">
+            <img src="https://raw.githubusercontent.com/flieckster/CineFile/main/assets/images/cinefile-demo1.png"
+              class="card-img-top" alt="CineFile screenshot">
+            <div class="card-body">
+              <h5 class="card-title">CineFile</h5>
+              <p class="card-text">A group project to create working app using two API's and local stroage. This app
+                searchs 'The Movie Database' and 'IMDB-api' to gather movie data, and display them to the user</p>
+              <a href="https://github.com/flieckster/CineFile"> <i class="fab fa-github fa-2x"></i></a>
+              <a href="flieckster.github.io/cinefile/"><i class="fas fa-external-link-alt fa-2x"></i></a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://user-images.githubusercontent.com/9003865/106060602-3e4ba980-60c2-11eb-95c4-6f5cccdc03ce.png"
+              class="card-img-top" alt="9 to 6 daily planner screens shot">
+            <div class="card-body">
+              <h5 class="card-title">9-6 daily planner</h5>
+              <p class="card-text">This is a javascript/Jquery daily planner that allows the user to create entrys into
+                the planner based on the time of the day.</p>
+              <a href="https://github.com/flieckster/05-Third-Party-APIs"> <i class="fab fa-github fa-2x"></i></a>
+              <a href=https://flieckster.github.io/05-Third-Party-APIs/"><i
+                  class="fas fa-external-link-alt fa-2x"></i></a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <br>
-  <div class="container">
-    <div class="text-center py-5 px-3">
-      <h3>Hi there! &#129306;</h3>
-      <p>My name is Brian Flieck</p>
+    <!-- spacers -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="contianer" id="resume">
+      <span>Resume</span>
+      <iframe src="Brian-Flieck-Resume.pdf" width="100%" height="500px">
     </div>
-  </div>
-  <!-- footer -->
-  <footer>
-    <nav class="navbar fixed-bottom navbar-dark has-background-grey-dark ">
-      <div class="container-fluid justify-content-center">
-        <a id="foot" class="navbar-brand mb-0" href="#">BCF 2021</a>
-      </div>
-    </nav>
-  </footer>
+
 
 </html>

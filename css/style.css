@@ -1,29 +1,49 @@
 
 .navbar{
-  background: rgb(0, 0, 0) !important;
+
   font-family: 'Poppins', sans-serif;
-  
-  /* font-size: 23px !important; */
-  /* background: linear-gradient(180deg, rgb(50, 137, 155) 50%, rgb(175, 175, 175) 100%) !important; */
+  background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 50%, rgba(82,193,232,0.1) 100%);
+
 } 
+html {
+  scroll-behavior: smooth;
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1464802686167-b939a6910659?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1933&q=80");
+
+  /* Set a specific height */
+  height: 900px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #foot{
   font-size: 12px !important;
+  background-color: black !important;
 }
 
 #brand{
   font-size: 25px !important;
 }
 
-.btn{
-  background: rgb(0, 0, 0) !important;
-  
-}
-a{
-  color: rgb(0, 0, 0);
-  font-size: 15px !important;
+
+/* nav buttons */
+
+.nav-item{
+  color: rgb(255, 255, 255);
+  font-size: 20px !important;
   font-family: 'Poppins', sans-serif;
 }
+
+/* adjust images inside card objects */
 
 .card-img-top {
   width: 100%;
@@ -31,8 +51,21 @@ a{
   object-fit: cover;
 }
 
-#porfolio{
+/* change portfolio title format */
+
+#portfolio, #resume{
   font-size: 25px !important;
   font-family: 'Poppins', sans-serif;
-  color: rgb(0, 0, 0);
+  color: #ffffff !important;
+}
+
+/* change Brian Flieck brand to larger font */
+
+#brand{
+  font-size: 50px !important;
+}
+
+/* control font awesome icon color */
+.fa-2x{
+  color: #a21dbd !important;
 }
